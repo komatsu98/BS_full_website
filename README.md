@@ -1,17 +1,18 @@
 # Bài tập Trainee Colombo 2018
 
-## Bootstrap with sass workflow
-Học và thực hành từ bài 11 đến bài 13 của khoá học trong link tài liệu.
+## # BS_full_website
+Sử dụng bootstrap, sass, kết hợp các thư viện js/css để hoàn thiện giao diện đầy đử của 1 sản phẩm
 
 Thực hiện bởi [Hồ Anh Tiến](https://github.com/komatsu98)
 
 ## Liên kết
 
-[Giao diện](https://komatsu98.github.io/BS4SASS_Ho-Anh-Tien/app)
+[Giao diện](https://komatsu98.github.io/BS_full_website/app)
 
-[Tài liệu](https://www.youtube.com/playlist?list=PLUoqTnNH-2XyNhhLuYrrmrmV46jVw6RHF)
 ## Kiến thức nắm được
-Nắm được việc kết hợp SASS và Bootstrap 4
+Hoàn thiện sản phẩm
 
 ## Credit
 [Bootstrap](https://getbootstrap.com/)
+
+
