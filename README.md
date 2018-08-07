@@ -7,7 +7,7 @@ Thực hiện bởi [Hồ Anh Tiến](https://github.com/komatsu98)
 
 ## Liên kết
 
-[Giao diện](https://komatsu98.github.io/BS4ResponsiveSite_Ho-Anh-Tien/)
+[Giao diện](https://komatsu98.github.io/BS4SASS_Ho-Anh-Tien/app)
 
 [Tài liệu](https://www.youtube.com/playlist?list=PLUoqTnNH-2XyNhhLuYrrmrmV46jVw6RHF)
 ## Kiến thức nắm được
