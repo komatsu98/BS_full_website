@@ -6055,5 +6055,243 @@ a.text-dark:hover, a.text-dark:focus {
 /* --------------------------------------------------------
    Custom application specific styles
    -------------------------------------------------------- */
+html,
+body {
+  height: 100%;
+  color: #6c6c6c;
+  font-size: 16px; }
+
+img {
+  max-width: 100%; }
+
+#top-info {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.top-info-grp {
+  margin-right: 30px; }
+
+.top-info-grp .icon {
+  font-size: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  background: #1a9bdc;
+  border-radius: 50%;
+  color: white;
+  margin-right: 30px; }
+
+.icon > i {
+  padding: 15px; }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-weight: bold;
+  color: #6c6c6c; }
+
+.navbar-expand-lg .navbar-nav .active .nav-link {
+  color: #262626; }
+
+.navbar-text {
+  color: #191919; }
+
+#main-banner {
+  background: url("../../images/banner.jpg");
+  background-size: cover;
+  background-position: left 60% top;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+#main-banner .col-lg-7 .text {
+  border-radius: 50%;
+  background: #FFFFFF;
+  box-shadow: 0 0 5rem 3rem #FFFFFF;
+  border: none; }
+
+#main-banner .lead {
+  font-size: 3rem;
+  color: #474747;
+  font-weight: bold; }
+
+#service .col-md-3 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background: #43b1d2;
+  color: #FFFFFF; }
+
+#service .icon {
+  font-size: 2.5rem;
+  width: 4rem;
+  height: 4rem;
+  background: white;
+  border-radius: 50%;
+  color: black; }
+
+#service .lead {
+  font-size: 2rem;
+  font-weight: bold; }
+
+#why-choose-us .lead {
+  font-size: 3rem;
+  color: #474747;
+  font-weight: bold; }
+
+#best-features {
+  background: url("../../images/best-service.jpg");
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 10rem; }
+
+#best-features .text {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 2rem; }
+
+#best-features .icon {
+  font-size: 5rem;
+  width: 4rem;
+  height: 4rem;
+  color: #FFFFFF;
+  margin-bottom: 2rem; }
+
+#best-features .text .lead {
+  font-size: 3rem;
+  font-weight: bold; }
+
+#best-features hr {
+  background: white;
+  width: 5rem;
+  height: 0.4rem; }
+
+#info .text {
+  min-height: 8rem; }
+
+#info .category .text {
+  min-height: 0; }
+
+#info .icon {
+  font-size: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  color: #FFFFFF;
+  margin-right: 1rem; }
+
+#info .title {
+  background: #e2e2e2;
+  border-radius: 2rem;
+  width: 100%;
+  font-weight: bold;
+  padding-left: 0.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+  color: #494949; }
+
+#info .category .detail {
+  /*margin-bottom: 2rem;*/ }
+
+#info .card .lead {
+  margin-bottom: 0; }
+
+#info .card .info {
+  font-size: 0.75rem;
+  color: #0087be; }
+
+#info .card img {
+  max-height: 10rem; }
+
+#info .category button {
+  border: none; }
+
+#info button[aria-expanded=true] {
+  background: #0087be;
+  color: #FFFFFF; }
+
+#info button:focus {
+  outline: none; }
+
+#info button:focus {
+  border: none; }
+
+#gallery {
+  background-image: url("../../images/gallery-background.jpg");
+  position: relative;
+  color: #FFFFFF; }
+
+#gallery .container-fluid {
+  background: rgba(55, 181, 157, 0.8); }
+
+#gallery .lead {
+  font-weight: bold;
+  font-size: 3rem; }
+
+#gallery img {
+  max-height: 13rem;
+  width: 100%; }
+
+#our-doctor {
+  color: #6c6c6c; }
+
+#our-doctor .lead {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #494949; }
+
+#our-doctor .avt img {
+  border-radius: 50%; }
+
+#our-doctor .icon i {
+  color: #0087be; }
+
+#quick-action {
+  background: #e2e2e2; }
+
+#quick-action .lead {
+  font-weight: bold;
+  font-size: 1.5rem; }
+
+#footer {
+  background-color: #171717; }
+
+#footer .lead {
+  font-weight: bold;
+  font-size: 1.75rem;
+  color: #FFFFFF; }
+
+#footer span i {
+  color: #FFFFFF; }
+
+#footer li {
+  margin-bottom: 1rem; }
+
+#footer ul {
+  list-style-type: none;
+  padding-left: 0; }
+
+@media screen and (min-width: 480px) {
+  #footer ul {
+    list-style-type: circle;
+    padding-left: 3rem; } }
+#footer .form-group {
+  border-bottom: 1px solid #6c6c6c;
+  width: 100%; }
+
+#footer .form-control {
+  background-color: #171717 !important;
+  border: none; }
+
+#footer .form-group label {
+  margin-bottom: 0;
+  align-self: center; }
+
+#footer input:focus {
+  box-shadow: 0 0 0 #171717 !important; }
+
+#footer button[type=submit] {
+  border-radius: 3rem;
+  padding: 0.5rem 2rem;
+  font-weight: bold; }
+
+#cpyrght {
+  background: #1a1a1a;
+  padding: 2rem; }
 
 /*# sourceMappingURL=app.css.map */
