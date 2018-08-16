@@ -38,14 +38,14 @@
    Core CSS
    -------------------------------------------------------- */
 
-@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/custom_reboot";
 //@import "../../node_modules/bootstrap/scss/type";
 //@import "../bower_components/bootstrap/scss/images";
 //@import "../bower_components/bootstrap/scss/code";
-@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/custom_grid";
 //@import "../bower_components/bootstrap/scss/tables";
-@import "../../node_modules/bootstrap/scss/forms";
-@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/custom_forms";
+@import "../../node_modules/bootstrap/scss/custom_buttons";
 
 
 
@@ -58,9 +58,9 @@
 //@import "../bower_components/bootstrap/scss/button-group";
 //@import "../bower_components/bootstrap/scss/input-group";
 //@import "../bower_components/bootstrap/scss/custom-forms";
-@import "../../node_modules/bootstrap/scss/nav";
-@import "../../node_modules/bootstrap/scss/navbar";
-@import "../../node_modules/bootstrap/scss/card";
+@import "../../node_modules/bootstrap/scss/custom_nav";
+@import "../../node_modules/bootstrap/scss/custom_navbar";
+@import "../../node_modules/bootstrap/scss/custom_card";
 //@import "../bower_components/bootstrap/scss/breadcrumb";
 //@import "../bower_components/bootstrap/scss/pagination";
 //@import "../bower_components/bootstrap/scss/pager";
@@ -90,7 +90,7 @@
    Utility classes
    -------------------------------------------------------- */
 
-@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/custom_utilities";
 //@import "../../node_modules/bootstrap/scss/utilities/background";
 //@import "../../node_modules/bootstrap/scss/utilities/spacing";
 //@import "../../node_modules/bootstrap/scss/utilities/responsive";
@@ -103,4 +103,11 @@
    Custom application specific styles
    -------------------------------------------------------- */
 
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/core";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/custom_icons";
 @import "base";
+
+
